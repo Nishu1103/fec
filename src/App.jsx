@@ -9,7 +9,7 @@ import Resources from "./component/Resources/Reso";
 import Blogs from "./component/Blogs/Blogs";
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />  
       <BrowserRouter>
         <Routes>
@@ -22,7 +22,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer />
-    </div>
+    </>
   );
 }
 
