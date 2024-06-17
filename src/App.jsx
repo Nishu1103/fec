@@ -10,8 +10,8 @@ import Blogs from "./component/Blogs/Blogs";
 function App() {
   return (
     <>
-      <Navbar />  
       <BrowserRouter>
+      <Navbar />  
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
